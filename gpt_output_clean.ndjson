@@ -1,0 +1,629 @@
+{"file_id": 13433, "GPT-response": "^(u|s|p)\\w*"}
+{"file_id": 7478, "GPT-response": "`\\w+=([a-zA-Z0-9+%]+|%[0-9A-Fa-f]{2})+`"}
+{"file_id": 131, "GPT-response": "`^>= \\d+(\\.\\d+)?(\\.\\d+)? && < \\d+(\\.\\d+)?(\\.\\d+)?$`"}
+{"file_id": 18860, "GPT-response": "a x( #\\d+)+"}
+{"file_id": 3739, "GPT-response": "\\s+at [A-Za-z_]\\w*.*\\(node:.*?\\)"}
+{"file_id": 13472, "GPT-response": ".*(us|or).*"}
+{"file_id": 4930, "GPT-response": null}
+{"file_id": 160, "GPT-response": "`^>=\\s*\\d+(\\.\\d+)*\\s*&&\\s*<\\s*\\d+(\\.\\d+)*$`"}
+{"file_id": 4130, "GPT-response": null}
+{"file_id": 10255, "GPT-response": null}
+{"file_id": 111, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 6428, "GPT-response": "\\s*at\\s+\\(/.*\\.js:\\d+:\\d+\\)"}
+{"file_id": 19927, "GPT-response": ".*\\{0\\}.*|\\{1\\}.*|.*npm install @types/.*|.*declaration file.*|.*`declare module.*"}
+{"file_id": 18873, "GPT-response": "^[a-z] [\\#a-z][0-9]?$"}
+{"file_id": 158, "GPT-response": "^>=\\s*\\d+(\\.\\d+){0,2}\\s*&&\\s*<\\s*\\d+(\\.\\d+){0,2}$"}
+{"file_id": 15067, "GPT-response": "^[\\u96f6\\u4e00\\u4e8c\\u4e09\\u56db\\u4e94\\u516d\\u4e03\\u516b\\u4e5d\\u5341\\u4e07\\u4ebf\\u5146\\u4e24\\u6d1e\\u4e48\\u5176\\u4ed6\\u4f55\\u5200\\u52a8\\u62db\\u676f\\u52a9\\u52fe]*$"}
+{"file_id": 10049, "GPT-response": null}
+{"file_id": 7803, "GPT-response": ".*/__tests__/__snapshots__/.*\\.snap$"}
+{"file_id": 12603, "GPT-response": null}
+{"file_id": 12550, "GPT-response": "^/scratch/[^/]+/[^/]+/node_modules/[^/]+/(build|serializer\\.js)/[^/]+\\.js$"}
+{"file_id": 2071, "GPT-response": null}
+{"file_id": 10367, "GPT-response": "\n```regex\n(>=\\d+\\.\\d+\\.\\d+(?:-\\d+)?\\s+<\\d+\\.\\d+\\.\\d+)|(\\^\\d+\\.\\d+\\s+\\|\\|\\s+>=\\d+\\.\\d+\\.\\d+)\n```\n"}
+{"file_id": 10285, "GPT-response": "^(>=7\\.\\d+\\.\\d+(-\\w+\\.\\d+)? <8\\.0\\.0)$"}
+{"file_id": 13463, "GPT-response": null}
+{"file_id": 13589, "GPT-response": "\n`^~\\d+\\.\\d+\\.\\d+$`\n"}
+{"file_id": 19968, "GPT-response": null}
+{"file_id": 8675, "GPT-response": "`[a-z]+(?:-[0-9a-f]+)?(?:-[a-z0-9]+)+`"}
+{"file_id": 965, "GPT-response": "^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"}
+{"file_id": 4151, "GPT-response": "[\\s\\S]*[\\x0b\\x0c\\xa0\\u2003\\u2029][\\s\\S]*|^\\s+.*|.*\\s+$"}
+{"file_id": 130, "GPT-response": "\n```regex\n^>= \\d+(?:\\.\\d+)?(?:\\.\\d+)? && < \\d+(?:\\.\\d+)?(?:\\.\\d+)?$\n```\n"}
+{"file_id": 12569, "GPT-response": "^(?:.*\\/)+(?:.+\\/)*index\\.js$"}
+{"file_id": 14886, "GPT-response": "^[+-]?\\d+(\\.\\d+)?$"}
+{"file_id": 2411, "GPT-response": "^\\/scratch\\/.*?node_modules\\/ts-loader\\/index\\.js!\\/scratch\\/.*?\\.[a-zA-Z]+$"}
+{"file_id": 13351, "GPT-response": null}
+{"file_id": 18641, "GPT-response": "visit[A-Z]\\w*"}
+{"file_id": 10184, "GPT-response": "\n```regex\n(\\d+\\.\\*|\\>=\\s*\\d+|(?:\\d+\\.)+\\d+x|\\|\\|)\n```\n"}
+{"file_id": 3813, "GPT-response": "`^(?:/api/v2/discussion/<discussion_id>/read/|<discussion_id>|<slug>/?$|<team_slug>(?:/<discussion_id>/<slug>/?)?$|loop/<discussion_id>/<slug>/)$`"}
+{"file_id": 19084, "GPT-response": "`^(firefox|op_mob|opera) \\d+(\\.\\d+)?$`"}
+{"file_id": 10183, "GPT-response": null}
+{"file_id": 13563, "GPT-response": "`^~\\d+\\.\\d+\\.\\d+$`"}
+{"file_id": 3752, "GPT-response": "at (Context|process).* \\(([^)]+)\\)|at (Context|process).* (node:[^ ]+ [^ ]+)"}
+{"file_id": 13348, "GPT-response": "^(?!s|pu|.*lit).*"}
+{"file_id": 11368, "GPT-response": null}
+{"file_id": 4087, "GPT-response": "^[#\\(\\),\\-./0:=\\?ACDEFIJLMNOPRSTWX\\[\\]\\^_`a-z{|}]+$"}
+{"file_id": 4131, "GPT-response": null}
+{"file_id": 18857, "GPT-response": "^a x( #\\d+)+$"}
+{"file_id": 3387, "GPT-response": "[a-zA-Z]+-[a-zA-Z]+(-[a-zA-Z]+)*"}
+{"file_id": 10128, "GPT-response": "((\\w+)\\s*>[^,]+)(,\\s*(\\w+)\\s*(>|=|%|@)[^,]+)+"}
+{"file_id": 10332, "GPT-response": "(^((\\^|>=)\\d+(\\.\\d+){1,2}(\\-0)?( \\|\\|)?)+( <\\d+(\\.\\d+){1,2}(\\-0)?)?$)"}
+{"file_id": 5513, "GPT-response": "^(body|bottom-sheet)(-backdrop|-body|-header|-header-bar)?$"}
+{"file_id": 15327, "GPT-response": "\\b[A-Z]{2,}(?:_[A-Z]+)*\\b"}
+{"file_id": 11394, "GPT-response": "\\b(?:\\d{1,3}\\.){3}\\d{1,3}\\b"}
+{"file_id": 11981, "GPT-response": null}
+{"file_id": 10872, "GPT-response": "^\\s*(this\\.[a-zA-Z\\._]+|.*\\{|\\})\\s*[:,]?(\\s*\\/\\/.*)?$"}
+{"file_id": 14457, "GPT-response": "^--(?!-)\\w+(-\\w+)*=.+"}
+{"file_id": 19820, "GPT-response": "^a\\s+x\\s+(?:#\\d\\s*)+"}
+{"file_id": 15549, "GPT-response": "^\\$[a-zA-Z0-9_]+$"}
+{"file_id": 12576, "GPT-response": "\n`^\\/scratch\\/bell\\/cmsale\\/extra-bit\\/node_modules\\/[^\\/]+\\/(.*\\/)?[^\\/]+\\.js$`\n"}
+{"file_id": 18482, "GPT-response": "^v?\\d+\\.\\d+\\.\\d+(-[0-9A-Za-z-]+(\\.[0-9A-Za-z-]+)*)?$"}
+{"file_id": 15357, "GPT-response": "^(?:\\$[a-zA-Z]+|[a-z]{2,10})$"}
+{"file_id": 122, "GPT-response": "`^>= \\d+(\\.\\d+){0,2}\\s*&&\\s*< \\d+(\\.\\d+){0,2}$`"}
+{"file_id": 15480, "GPT-response": "`^[a-z][a-zA-Z]*$`"}
+{"file_id": 10786, "GPT-response": "\n```regex\n\\{\\{#include\\s+([\\$a-zA-Z0-9_.]+)\\}\\}\n```\n"}
+{"file_id": 10258, "GPT-response": null}
+{"file_id": 13452, "GPT-response": "(push|sort|unshift)"}
+{"file_id": 19080, "GPT-response": "^firefox\\s[1-9][0-9]*(\\.[0-9])?$"}
+{"file_id": 10315, "GPT-response": "^(>=\\d+(\\.\\d+){1,2}(?:-\\d+)?\\s<\\d+(\\.\\d+){1,2}(?:-\\d+)?)$"}
+{"file_id": 15145, "GPT-response": null}
+{"file_id": 12773, "GPT-response": "^\\^(\\d+\\.\\d+\\.\\d+)(-[\\w.]+)?$"}
+{"file_id": 115, "GPT-response": "^>= \\d+(\\.\\d+)?(\\.\\d+)? && < \\d+(\\.\\d+)?(\\.\\d+)?$"}
+{"file_id": 121, "GPT-response": "^>= *(\\d+(\\.\\d+)*) *&& *< *(\\d+(\\.\\d+)*)$"}
+{"file_id": 16094, "GPT-response": "^/scratch/bell/cmsale/supakit/src/lib/.+?/[^/]+\\.(ts|d\\.ts)$"}
+{"file_id": 12554, "GPT-response": "^/scratch/bell/cmsale/baseDesign/(?:node_modules/[^/]+/(?:.+/)?[^/]+\\.(?:js|jsx|ts|tsx)|setUpTests\\.js)$"}
+{"file_id": 7772, "GPT-response": "^.*\\.map$"}
+{"file_id": 161, "GPT-response": "^>=\\s*\\d+(\\.\\d+){0,2}\\s*&&\\s*<\\s*\\d+(\\.\\d+){0,2}$"}
+{"file_id": 5980, "GPT-response": "^(?:\\*|@.*|bs-.*|jsx\\.d\\.ts)$"}
+{"file_id": 18859, "GPT-response": "a x( #\\d+)+"}
+{"file_id": 13431, "GPT-response": "^(?!p|s)[a-z]+"}
+{"file_id": 13464, "GPT-response": "`^(?:push|sort|unshift)$`"}
+{"file_id": 17099, "GPT-response": "^[^\\s.]+$"}
+{"file_id": 19819, "GPT-response": "a x( #\\d+)+"}
+{"file_id": 18209, "GPT-response": "^parent [a-fA-F0-9]{40}$"}
+{"file_id": 8052, "GPT-response": "^(?:(?!.*\\.DS_Store)(?!.*\\.gitkeep)(?!.*LICENSE\\.md)(?!.*\\/app\\.css).)+$"}
+{"file_id": 14822, "GPT-response": "\\b(?:.*Function.*|.*Declaration|Program)\\b"}
+{"file_id": 2427, "GPT-response": null}
+{"file_id": 11768, "GPT-response": "`^[^:]*\\.js$`"}
+{"file_id": 2390, "GPT-response": "^(?=.*[A-Z])(?=.*[a-z])[\\w:-]+|^[a-z]+(-[a-z]+)+$"}
+{"file_id": 18337, "GPT-response": "(?:(?:[\\uD800-\\uDBFF](?![\\uDC00-\\uDFFF]))|(?:[^\\\\uD800-\\\\uDBFF]|^)([\\uDC00-\\uDFFF]))"}
+{"file_id": 6378, "GPT-response": "\\(--breakpoint-(lg|md|sm|xs)(-(lg|md|sm|xs))?\\)"}
+{"file_id": 13233, "GPT-response": "\\b(?:filter|map|reject|take(?:Right)?While)\\b"}
+{"file_id": 152, "GPT-response": null}
+{"file_id": 15914, "GPT-response": "^/?(([a-zA-Z0-9]+/)*[a-zA-Z0-9]+\\.js)$"}
+{"file_id": 151, "GPT-response": "\n```regex\n^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$\n```\n"}
+{"file_id": 13460, "GPT-response": "^(?!pop|shift|splice)[a-z]*t[a-z]*$"}
+{"file_id": 13356, "GPT-response": "^lib\\/[^\\/]+\\.js$"}
+{"file_id": 150, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 155, "GPT-response": ">=\\s*\\d+(\\.\\d+)*\\s*&&\\s*<\\s*\\d+(\\.\\d+)*"}
+{"file_id": 19247, "GPT-response": "^(firefox|ie(?:_mob)?) \\d+(?:\\.\\d+)?$"}
+{"file_id": 16083, "GPT-response": "^\\/plugin\\/[^\\/]+\\.php$"}
+{"file_id": 15418, "GPT-response": "^https://github\\.com/[a-zA-Z0-9-]+/[a-zA-Z0-9-]+(\\.git|/[^ ]*)?$"}
+{"file_id": 13444, "GPT-response": null}
+{"file_id": 2426, "GPT-response": "[a-z]+(-[a-z]+)+"}
+{"file_id": 18480, "GPT-response": "^(v?\\d+\\.\\d+\\.\\d+)(-[\\w\\.]+)?$"}
+{"file_id": 13234, "GPT-response": "\\b[a-zA-Z]*(While)\\b"}
+{"file_id": 937, "GPT-response": "\n`r\"^(?:.*?\\/)?(?:(?:\\*\\.\\w+)|(?:[\\w.-]+\\.json\\.ember-try)|(?:[\\w.-]+))$\"`\n"}
+{"file_id": 11055, "GPT-response": "^\\/scratch\\/bell\\/cmsale\\/supakit\\/src(\\/[^\\/]+)*$"}
+{"file_id": 2448, "GPT-response": "^\\./(node_modules|src)/[\\w-]+(/lib|/dist)?/[\\w-]+\\.\\w{2,4}(\\.js|\\.mjs|\\.json)?$|^\\./[\\w-]+\\.(js|mjs)$"}
+{"file_id": 9522, "GPT-response": "^[0-9]$"}
+{"file_id": 13458, "GPT-response": "^(?!.*(?:join|pop|replace|shift|splice|split)).*(s|t).*$"}
+{"file_id": 10301, "GPT-response": "`^>=\\d+(\\.\\d+){1,2} <\\d+(\\.\\d+){1,2}$`"}
+{"file_id": 12747, "GPT-response": "`^\\^(\\d+)(\\.\\d+)?(\\.\\d+)?(-[a-zA-Z0-9-.]+)?$`"}
+{"file_id": 163, "GPT-response": "^>=\\s*(\\d+(\\.\\d+){0,2})\\s*&&\\s*<\\s*(\\d+(\\.\\d+){0,2})$"}
+{"file_id": 114, "GPT-response": "\n```\n^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$\n```\n"}
+{"file_id": 3636, "GPT-response": null}
+{"file_id": 13441, "GPT-response": "^(un|.*or|.*ush.*)$"}
+{"file_id": 18456, "GPT-response": null}
+{"file_id": 10325, "GPT-response": ["(^\\d+(\\.\\d+)?(\\.\\d+)?(\\-0)? \\| \\| )?((>=\\d+(\\.\\d+)?(\\.\\d+)?(\\-0)?) (< \\d+(\\.\\d+)?(\\.\\d+)?(\\-0)?))", "(^\\^?\\d+\\.\\d+(\\.\\d+)?(\\-0)? (\\|\\| )?)*>=\\d+\\.\\d+(\\.\\d+)?(\\-0)? < \\d+\\.\\d+(\\.\\d+)?(\\-0)?$"]}
+{"file_id": 12717, "GPT-response": "^\\^\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 18858, "GPT-response": "^a x (\\#\\d+(\\ \\#\\d+)*)?$"}
+{"file_id": 6393, "GPT-response": "\\bat (node:internal\\/[\\w\\/]+:\\d+:\\d+)"}
+{"file_id": 12557, "GPT-response": "^\\/scratch\\/bell\\/cmsale\\/graphql-yoga\\/node_modules\\/(?:.+\\/)*[^\\/]+\\.(?:js|cjs)$"}
+{"file_id": 12742, "GPT-response": "^\\^(\\d+\\.\\d+\\.\\d+(-\\w+\\.\\d+)?|\\d+\\.\\d+|\\d+)"}
+{"file_id": 19845, "GPT-response": "^[a-zA-Z] \\w+ (\\#\\d+( \\#\\d+)*)?$"}
+{"file_id": 3690, "GPT-response": "^:(\\w+)(\\/:\\w+)*(\\/)?$"}
+{"file_id": 10689, "GPT-response": "^(.*)(__tests__|cypress\\/.*|.*\\.(spec|test))\\.(js|cjs|mjs|jsx|ts|cts|mts|tsx)$"}
+{"file_id": 11417, "GPT-response": "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"}
+{"file_id": 13236, "GPT-response": "\\b(?:filter|map|reject|takeRightWhile|takeWhile|.*While)\\b"}
+{"file_id": 14672, "GPT-response": "0x[0-9a-fA-F]+"}
+{"file_id": 19841, "GPT-response": "`^\\w\\sx(\\s#\\d+)+$`"}
+{"file_id": 10296, "GPT-response": "\\>=[ ]*\\d+\\.\\d+\\.\\d+[ ]*<[ ]*\\d+\\.\\d+\\.\\d+"}
+{"file_id": 18453, "GPT-response": "\n\n"}
+{"file_id": 12748, "GPT-response": "`^\\^(\\d+\\.)?(\\d+\\.)?(\\*|\\d+(-beta\\.\\d+)?)$`"}
+{"file_id": 1957, "GPT-response": "^\\.[a-zA-Z0-9]+\\/$"}
+{"file_id": 15548, "GPT-response": "`^\\$[a-zA-Z_]+`"}
+{"file_id": 16197, "GPT-response": "`^[^\\W_\\-]([^\\W_]|[-0-9a-zA-Z\\xA0-\\uD7FF\\uE000-\\uFFFF]|(?<![\\uD800-\\uDBFF])[\\uDC00-\\uDFFF]|[\\uD800-\\uDBFF](?![\\uDC00-\\uDFFF]))*$`"}
+{"file_id": 2447, "GPT-response": "^\\./?(?:\\w+/)*\\w+\\.js$"}
+{"file_id": 932, "GPT-response": "\n`^(?!.*(?:^|\\/)(?:\\..*|node_modules|bower_components|coverage|dist|tmp|vendor)\\/)(?:.*\\/)?(?:\\*\\..*?|[^\\/]*?\\.json\\.ember-try)$`\n"}
+{"file_id": 3754, "GPT-response": "^.*at .+\\s\\(\\/.*?:\\d+:\\d+\\)"}
+{"file_id": 15328, "GPT-response": "`^[A-Z]+(?:_[A-Z]+)*$`"}
+{"file_id": 17961, "GPT-response": "last \\d+ (?:Chrome|Firefox|Safari) versions"}
+{"file_id": 125, "GPT-response": "^>=\\s*(\\d+(\\.\\d+)*)\\s*&&\\s*<\\s*(\\d+(\\.\\d+)*)"}
+{"file_id": 7868, "GPT-response": "^[a-zA-Z0-9]+/[a-zA-Z0-9]+/[a-zA-Z0-9]+$"}
+{"file_id": 13442, "GPT-response": "\\b(?:(?!pop|shift|splice).)*(sort|sh)\\b"}
+{"file_id": 3249, "GPT-response": "^.*[^/]\\.ts$"}
+{"file_id": 15469, "GPT-response": "^[^.]+$"}
+{"file_id": 7552, "GPT-response": "/src/.*\\.js$"}
+{"file_id": 4599, "GPT-response": "^[0-9a-f]+$"}
+{"file_id": 6074, "GPT-response": "^[a-zA-Z0-9-]+$"}
+{"file_id": 12016, "GPT-response": "^__tests__\\/.+\\.js$"}
+{"file_id": 13468, "GPT-response": "^(?!s[aeiou])(?!.*[aeiou]$)[a-zA-Z]{4,}$"}
+{"file_id": 9517, "GPT-response": "`^[0125]$`"}
+{"file_id": 162, "GPT-response": "`^>= \\d+(\\.\\d+)* && < \\d+(\\.\\d+)*$`"}
+{"file_id": 18645, "GPT-response": "`visit[A-Z]\\w*`"}
+{"file_id": 15351, "GPT-response": "^[a-z]+(_[a-z]+)*$"}
+{"file_id": 2430, "GPT-response": "\\b\\w+(-\\w+)+\\b"}
+{"file_id": 10434, "GPT-response": "<(?!(?:.*?title=|href=|src=|alt=|rel=)).*?class=\"[^\"]*\".*?>"}
+{"file_id": 12741, "GPT-response": ["^\\^(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)(-beta\\.\\d+)?", "^\\^(\\d+\\.)?(\\d+\\.)?(\\d+)(-beta\\.\\d+)?"]}
+{"file_id": 14636, "GPT-response": "0x[0-9a-fA-F]{1,6}"}
+{"file_id": 6015, "GPT-response": "`^(?!(?:build|init|serve)$)(external\\s\"(?:[\\w.-]+)\"|[\\w-]+)(?:_(namespaceObject|default|promise|config)(?:_?\\d*))?$`"}
+{"file_id": 113, "GPT-response": "^>= \\d+(\\.\\d+)* && < \\d+(\\.\\d+)*$"}
+{"file_id": 133, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 12568, "GPT-response": null}
+{"file_id": 10130, "GPT-response": null}
+{"file_id": 15349, "GPT-response": "\\b(?![a-z]*[A-Z])[a-zA-Z$][a-z-]*(?!-pointer|Options|Items|Length|Properties|Media)[a-z]?\\b"}
+{"file_id": 5852, "GPT-response": null}
+{"file_id": 2073, "GPT-response": "\\b((?:[01]?\\d|2[0-3]):(?:[0-5]?\\d):ss)|(?:[01]?\\d|2[0-3]):mm:ss|HH:mm:ss\\b"}
+{"file_id": 18223, "GPT-response": "^rgb\\(\\s*(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\s*,\\s*(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\s*,\\s*(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\s*\\)$"}
+{"file_id": 18474, "GPT-response": "^(v?\\d+\\.\\d+\\.\\d+)(-[\\da-z]+\\.[\\da-z]+)?"}
+{"file_id": 135, "GPT-response": "^>=\\s*(\\d+(\\.\\d+)*)\\s*&&\\s*<\\s*(\\d+(\\.\\d+)*)"}
+{"file_id": 18875, "GPT-response": "^[a-z] \\w+$"}
+{"file_id": 13447, "GPT-response": null}
+{"file_id": 12722, "GPT-response": "`^\\^(\\d+\\.\\d+\\.\\d+)$`"}
+{"file_id": 17884, "GPT-response": "http://img\\.baidu\\.com/static/photo/(?:[\\w\\/]+/)?[\\w-]+\\.js"}
+{"file_id": 10289, "GPT-response": ">=\\d+\\.\\d+\\.\\d+ <\\d+\\.\\d+\\.\\d+"}
+{"file_id": 14257, "GPT-response": "^(calls|yields)(Arg|To)?(On|With)?(With)?$"}
+{"file_id": 14198, "GPT-response": "[A-Za-z_]+\\s?[><]=\\s?\\d+(\\.\\d+)?"}
+{"file_id": 18644, "GPT-response": "visit[A-Z][a-zA-Z0-9]*"}
+{"file_id": 10131, "GPT-response": null}
+{"file_id": 18877, "GPT-response": "^[a-z] [a-z0-9]#?$"}
+{"file_id": 14950, "GPT-response": "^[0156]$"}
+{"file_id": 457, "GPT-response": "\\b\\d+\\s(?:day|hour|minute|month|second|year)s?\\sago\\b"}
+{"file_id": 11418, "GPT-response": "^185\\.199\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"}
+{"file_id": 17591, "GPT-response": "^domain2:(error|info|log|warn)$"}
+{"file_id": 14442, "GPT-response": "^- [^#].*"}
+{"file_id": 14196, "GPT-response": "\\b\\w+\\s*(?:<=|>=)\\s*\\d+(\\.\\d+)?\\b"}
+{"file_id": 154, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 13443, "GPT-response": ".*\\\\(u|o).*"}
+{"file_id": 12743, "GPT-response": "^\\^(\\d+)(\\.\\d+)?(\\.\\d+)?(-beta\\.\\d+)?$"}
+{"file_id": 12563, "GPT-response": "`/scratch/bell/cmsale/catch-unknown/node_modules/(?:@?\\w+[-\\w]*/)+(?:build/)?\\w+\\.js$`"}
+{"file_id": 19081, "GPT-response": "\n^firefox \\d+(?:\\.\\d+)?$\n"}
+{"file_id": 10291, "GPT-response": "^>=\\d+\\.\\d+\\.\\d+ <\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 5510, "GPT-response": "`^[^/]+/\\*\\.\\w+$`"}
+{"file_id": 19082, "GPT-response": "^(firefox|op_mob|opera)\\s\\d+(\\.\\d+)?"}
+{"file_id": 2434, "GPT-response": "^[a-z]+(-[a-z]+)+$"}
+{"file_id": 2431, "GPT-response": "^[\\w]+-[\\w]+$"}
+{"file_id": 15512, "GPT-response": "`^[a-z]+$`"}
+{"file_id": 11513, "GPT-response": ".*\\.(spec|test)(\\.(cjs|cts|js|jsx|mjs|mts|ts|tsx))?$"}
+{"file_id": 12750, "GPT-response": ["^\\^(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)$", "^\\^\\d+(\\.\\d+)?(\\.\\d+)?$"]}
+{"file_id": 12627, "GPT-response": "`^/scratch/bell/cmsale/recursive/node_modules/(?:@[^/]+/)?[^/]+/(?!.*(?:package\\.json|[^/]+-/)).*\\.js$`"}
+{"file_id": 2438, "GPT-response": null}
+{"file_id": 10295, "GPT-response": "^>=\\d+(\\.\\d+){2}\\s<\\d+(\\.\\d+){2}$"}
+{"file_id": 4352, "GPT-response": null}
+{"file_id": 13128, "GPT-response": "\\b[a-z]+\\b"}
+{"file_id": 13437, "GPT-response": "[ps][a-z]*[uors][a-z]*"}
+{"file_id": 15551, "GPT-response": "^\\$[a-zA-Z0-9_]+$"}
+{"file_id": 12283, "GPT-response": "^(tests/(dummy/app|unit)/[^\\s/]+\\.js|tests/[^\\s/]+-helper\\.js)$"}
+{"file_id": 11863, "GPT-response": null}
+{"file_id": 18161, "GPT-response": "\n\n"}
+{"file_id": 13347, "GPT-response": "^(?!s|un)[a-z]{4,7}$"}
+{"file_id": 148, "GPT-response": "^>=\\s*\\d+(\\.\\d+){0,2}\\s*&&\\s*<\\s*\\d+(\\.\\d+){0,2}$"}
+{"file_id": 9527, "GPT-response": "`^[0-79]+$`"}
+{"file_id": 6420, "GPT-response": "`^(?:\\s{4}at\\s)(?!assert).+`"}
+{"file_id": 2432, "GPT-response": "\\b[a-zA-Z]+-[a-zA-Z]+\\b"}
+{"file_id": 13453, "GPT-response": "^(?![sp][pi])[b-df-hj-np-tv-z]*sh.*"}
+{"file_id": 171, "GPT-response": "\n```\n^>=\\s*\\d+(\\.\\d+){0,2}\\s*&&\\s*<\\s*\\d+(\\.\\d+){0,2}$\n```\n"}
+{"file_id": 11432, "GPT-response": "^\\/[A-Za-z0-9\\/._-]+\\/?$"}
+{"file_id": 6226, "GPT-response": "`\\\\x1b\\[\\d+m`"}
+{"file_id": 7721, "GPT-response": "^\\.\\/ext\\/builtin\\/[_a-z]+\\.js$"}
+{"file_id": 10294, "GPT-response": null}
+{"file_id": 9414, "GPT-response": "\"[\\x00-\\x09\\x0B\\x0C\\x0E-\\u2027\\u202A-\\uD7FF\\uE000-\\uFFFF]|[^\\x2D0-9A-Z_a-z\\xA0-\\uD7FF\\uE000-\\uFFFF]\""}
+{"file_id": 12287, "GPT-response": "^node_modules/(?:@[^/]+/)?[^/]+/$"}
+{"file_id": 11805, "GPT-response": "^_[a-zA-Z]+(?:_[a-zA-Z]+)?$"}
+{"file_id": 10362, "GPT-response": "^>=\\d+(\\.\\d+)+\\s+<\\s+\\d+(\\.\\d+)+$"}
+{"file_id": 6395, "GPT-response": "at .*\\b\\(node:internal\\/.*\\):\\d+:\\d+"}
+{"file_id": 10353, "GPT-response": "^>=\\d+\\.\\d+\\.\\d+(-[a-zA-Z0-9]+(\\.\\d+)*)?\\s<\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 1268, "GPT-response": null}
+{"file_id": 12744, "GPT-response": "^[\\^][0-9]+(\\.[0-9]+){1,2}(-beta\\.[0-9]+)?$"}
+{"file_id": 13562, "GPT-response": "^~\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 12582, "GPT-response": "`^(?:\\./|/)[\\w/-]+/node_modules/[\\w/@-]+/(?:build|src)?/?[\\w-]+\\.(?:js|ts)$`"}
+{"file_id": 19634, "GPT-response": "^(op_mob|opera) \\d{1,2}\\.\\d$"}
+{"file_id": 112, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 5888, "GPT-response": "[0-57-9A-BCDHLNPUabcdefghijkmnopqrstuvwxyz#\\(\\)\\*\\+\\-\\/:;<=>\\?{|}]+"}
+{"file_id": 140, "GPT-response": "`^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$`"}
+{"file_id": 8631, "GPT-response": "^(?:\\d{3}[-.]){2}\\d{3}$"}
+{"file_id": 14459, "GPT-response": "--[a-zA-Z]+"}
+{"file_id": 15353, "GPT-response": "^(\\$?[a-z][a-z0-9_]{0,20})$"}
+{"file_id": 2608, "GPT-response": "^([01]\\d|2[0-3]):([0-5]\\d)$"}
+{"file_id": 14872, "GPT-response": null}
+{"file_id": 13434, "GPT-response": "^(un)?[a-z]*[r|sh][a-z]+$"}
+{"file_id": 19635, "GPT-response": "(op_mob|opera) [0-9]+\\.[0-9]+"}
+{"file_id": 13346, "GPT-response": "`^(?!.*(ush|ort|ice|lit|un)).+$`"}
+{"file_id": 17948, "GPT-response": "^last\\s\\d+\\s(?:Chrome|Edge|Firefox(?:Android)?|Safari|iOS)\\smajor\\sversions$"}
+{"file_id": 14050, "GPT-response": "`^-?([1-9]\\d*|0|Infinity)$`"}
+{"file_id": 12559, "GPT-response": "^(?!.*jest-environment-|.*jest-sequencer-).*/node_modules/[^/]+/(build|runner\\.js)"}
+{"file_id": 118, "GPT-response": ">=\\s*(\\d+(\\.\\d+)*)\\s*&&\\s*<\\s*(\\d+(\\.\\d+)*)"}
+{"file_id": 10238, "GPT-response": "\\bat \\/.+\\/(?:[^\\/\\n]+\\/)*[^\\/\\n]+\\.js:\\d+:\\d+"}
+{"file_id": 12598, "GPT-response": null}
+{"file_id": 12089, "GPT-response": ".*/__tests__/.*\\.spec\\.js$"}
+{"file_id": 13446, "GPT-response": "\\b(?![jprs])[a-z]*(o|u|s)[a-z]*\\b"}
+{"file_id": 10129, "GPT-response": "^(?:[\\w-]+>[^,@%]+)(?:, |@|%)(?:[\\w-]+>[^,]+).*$"}
+{"file_id": 13432, "GPT-response": "^(un|.*ush|.*ort).*"}
+{"file_id": 13445, "GPT-response": "^(?!pop$)(un|[^sp]).*$"}
+{"file_id": 10340, "GPT-response": "r\"this\\\\.grunt\\\\..*\\\\.should\\\\.have\\\\.been\\\\.calledWith\\\\(.*('|\\\"|\\\\[).*(\\\\.only|chalk).*('|\\\"|\\\\]).*\\\\)\""}
+{"file_id": 119, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 8841, "GPT-response": "(?:ONE\\.|one\\.|(\\(%~).*?)%%%~\\.[^\\/]+$"}
+{"file_id": 4613, "GPT-response": "^[0-9A-Za-z:-IHJKLMNOPRSTUVWXYZabcfghijklmnoprstuvxyz\u0169\u07ac\ufffd]+$"}
+{"file_id": 116, "GPT-response": null}
+{"file_id": 2433, "GPT-response": "\\b\\w+-\\w+\\b"}
+{"file_id": 13448, "GPT-response": "^(?=.*[tsu])[a-z]+$"}
+{"file_id": 7617, "GPT-response": "^\\.\\/([^/]+\\/)*[^/]+\\.[^/]+$"}
+{"file_id": 164, "GPT-response": "^>=\\s*\\d+(\\.\\d+)?(\\.\\d+)?\\s*&&\\s*<\\s*\\d+(\\.\\d+)?(\\.\\d+)?$"}
+{"file_id": 17257, "GPT-response": "`__WEBPACK_MODULE_REFERENCE__\\d+_.+?__(asiSafe1|directImport_asiSafe1|call_asiSafe1)__`"}
+{"file_id": 3637, "GPT-response": "^[a-zA-Z\\-]+@[0-9]+\\.[0-9]+\\.[0-9]+#[a-zA-Z\\-]+$"}
+{"file_id": 5978, "GPT-response": "(^\\..*|.*\\[\\!.*\\].*|.*\\-(worker|kit)\\..*)$"}
+{"file_id": 13462, "GPT-response": ".*(sh|ort).*"}
+{"file_id": 3970, "GPT-response": null}
+{"file_id": 124, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 19817, "GPT-response": "^a x (?:#\\d+ ?)+$"}
+{"file_id": 10316, "GPT-response": null}
+{"file_id": 4916, "GPT-response": "^\\/scratch\\/bell\\/cmsale\\/ember-ref-modifier\\/node_modules\\/(?:[^\\/]+\\/)+[^\\/]*\\/(?:lib|src)\\/[^\\/]+\\.js$"}
+{"file_id": 143, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 6416, "GPT-response": "\n`\\b(?:at\\s+\\/.*\\.js:\\d+:\\d+)`\n"}
+{"file_id": 126, "GPT-response": "^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$"}
+{"file_id": 15369, "GPT-response": "^(?!.*(exclusive|Of|Items|Properties|max|min)).+$"}
+{"file_id": 14871, "GPT-response": null}
+{"file_id": 7651, "GPT-response": "\\b[A-Z][^.\\s]+\\.[^.\\s]+(?:\\.[^.\\s]+)?\\b"}
+{"file_id": 5254, "GPT-response": "`^(?!\\d+$)(?!.*<.*>)([\\w\\s-]+(?:\\s>\\s[\\w\\s-]+)*)$`"}
+{"file_id": 18640, "GPT-response": "visit[A-Z]\\w+"}
+{"file_id": 13469, "GPT-response": null}
+{"file_id": 13436, "GPT-response": "\\b(un.*|.*us.*)\\b"}
+{"file_id": 10318, "GPT-response": "^>=\\d+(\\.\\d+){0,2}(\\-[0-9A-Za-z-.]+)?\\s+<\\d+(\\.\\d+){0,2}(-[0-9A-Za-z-.]+)?$"}
+{"file_id": 15222, "GPT-response": null}
+{"file_id": 3640, "GPT-response": "[a-zA-Z0-9-]+@[0-9]+(\\.[0-9]+)*#[a-zA-Z0-9-/]+"}
+{"file_id": 11129, "GPT-response": "^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}(:[%][0-9a-zA-Z]+)?$|^(::([0-9a-fA-F]{1,4}:){0,5}[0-9a-fA-F]{1,4})?(:[%][0-9a-zA-Z]+)?$"}
+{"file_id": 3347, "GPT-response": "`^(?!.*(bundler|fingerprint|funnel|noop))(?!-)[a-zA-Z0-9-_]+(?<!-)$`"}
+{"file_id": 170, "GPT-response": null}
+{"file_id": 8010, "GPT-response": "`^(?!.*(?:\\.cjs|\\.coffee|\\.js|LICENSE\\.md|README\\.md|node_modules|readme\\.md)$)(?:.+/.*\\.md|.+/)$`"}
+{"file_id": 15356, "GPT-response": "`^[a-z]+(_[a-z]+)*$`"}
+{"file_id": 18478, "GPT-response": null}
+{"file_id": 3668, "GPT-response": "^/scratch/bell/cmsale/chimi/tests/(.+\\..+)$"}
+{"file_id": 15368, "GPT-response": "`^\\$?[a-z]+(?:[A-Z][a-z]+)*$`"}
+{"file_id": 12474, "GPT-response": "var\\(--space-\\d+\\) \\* -1"}
+{"file_id": 13440, "GPT-response": "^(?!.*(?:pop|shift|splice)).*(ush|ort|un.*)$"}
+{"file_id": 10135, "GPT-response": "(?:(?:\\w+>[^,]+[, ]+){1,}(?:\\w+>(?:[^,@%]+))|(?:\\w+[@%][^,]+))"}
+{"file_id": 14054, "GPT-response": "^\\./(?:node_modules\\/)?[\\w\\-]+\\/[\\w\\-]+\\.js$"}
+{"file_id": 18475, "GPT-response": "`^v?\\d+(\\.\\d+){2}(-\\w+(\\.\\w+)*)?$`"}
+{"file_id": 11383, "GPT-response": "\\b(?:[0-9]{1,3}\\.){3}[0-9]{1,3}\\b"}
+{"file_id": 13461, "GPT-response": "\\b(?:un)?[a-z]*[ost]h?\\b"}
+{"file_id": 10127, "GPT-response": ".+>.+(?:,|[@%]=).+"}
+{"file_id": 12740, "GPT-response": "\n`^\\^\\d+(?:\\.\\d+)?(?:\\.\\d+)?(?:-beta\\.\\d+)?`\n"}
+{"file_id": 19843, "GPT-response": "`^[a-z] x #( [1-9])?( #[1-9])?$`"}
+{"file_id": 18874, "GPT-response": "`^[a-z] [a-z]|^[a-z] #\\d+$`"}
+{"file_id": 3743, "GPT-response": null}
+{"file_id": 7819, "GPT-response": "^/scratch/bell/cmsale/story-bricks/tests/__snapshots__/.*\\.js\\.snap$"}
+{"file_id": 933, "GPT-response": "^(?!.*(?:^|\\/)(?:\\.\\*|\\.node_modules\\.ember-try|blueprints\\/\\*\\/files|bower_components|coverage|dist|node_modules|tmp|vendor)\\/)(.*\\.js|bower\\.json\\.ember-try|package\\.json\\.ember-try)$"}
+{"file_id": 12617, "GPT-response": "`/\\w+(/\\w+)+/tests/dummy/config/[\\w/-]+`"}
+{"file_id": 13565, "GPT-response": "~\\d+\\.\\d+\\.\\d+"}
+{"file_id": 7476, "GPT-response": "[A-Za-z0-9_+]{2,}(//)?[A-Za-z0-9_+]*"}
+{"file_id": 10349, "GPT-response": "^>=\\d+\\.\\d+\\.\\d+(-[a-zA-Z0-9]+(\\.[a-zA-Z0-9]+)*)? <\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 19237, "GPT-response": null}
+{"file_id": 3746, "GPT-response": "`(?<=\\sat\\s).*(\\(.*:[0-9]+:[0-9]+\\))`"}
+{"file_id": 19248, "GPT-response": "`^(firefox|ie(?:_mob)?)\\s\\d+(\\.\\d+)?$`"}
+{"file_id": 7581, "GPT-response": null}
+{"file_id": 11901, "GPT-response": "r'\\/scratch\\/bell\\/cmsale\\/doc-head-extract\\/test\\/[^\\/]+\\.test\\.js$'"}
+{"file_id": 13450, "GPT-response": "^(?!pop|shift|splice)[pus][a-z]*"}
+{"file_id": 10254, "GPT-response": "`^(?=.*\\>\\=)(?=.*\\<)(?:(?:\\^\\d+(\\.\\d+)?(\\.\\d+)?(?:\\s*\\|\\|\\s*\\>\\=\\d+(\\.\\d+)?(\\.\\d+)?)?)|(?:\\>\\=\\d+(\\.\\d+)?(\\.\\d+)?(?:\\s*\\-\\d+)?\\s*\\<\\d+(\\.\\d+)?(\\.\\d+)?(?:\\-\\d+)?))$`"}
+{"file_id": 15515, "GPT-response": "^[abcdefghilnoprstuy]+$"}
+{"file_id": 13454, "GPT-response": "^(?=.*u).*t?$"}
+{"file_id": 19829, "GPT-response": "(a x|y( x)?)( #[0-9]+)+"}
+{"file_id": 7481, "GPT-response": "^[a-zA-Z0-9/+]+[+][a-zA-Z0-9/+]*$"}
+{"file_id": 12614, "GPT-response": "/scratch/bell/cmsale/eslint-plugin-pug/node_modules/[^/]+/(build/index\\.js|runner\\.js)$"}
+{"file_id": 7858, "GPT-response": "[a-zA-Z0-9]+/[a-zA-Z0-9]+"}
+{"file_id": 168, "GPT-response": "\n```regex\n^\\s*>=\\s*\\d+(\\.\\d+)?(\\.\\d+)?\\s*&&\\s*<\\s*\\d+(\\.\\d+)?(\\.\\d+)?\\s*$\n```\n"}
+{"file_id": 19245, "GPT-response": "(firefox|ie_mob|ie) \\d+(?:\\.\\d+)?"}
+{"file_id": 4616, "GPT-response": "\n```regex\n^[A-EN-PS-UZceghlmnrtuvxz\ufffd:]+$\n```\n"}
+{"file_id": 12571, "GPT-response": "^/scratch/bell/cmsale/extra-sleep/node_modules/(?:@jest/)?jest-[a-z]+(?:-[a-z]+)?/.*\\.js$"}
+{"file_id": 10343, "GPT-response": "(>=\\d+(\\.\\d+){0,2} <\\d+(\\.\\d+){0,2}(-0)?|\\^\\d+(\\.\\d+){0,2} \\|\\| >=\\d+(\\.\\d+){0,2})"}
+{"file_id": 9460, "GPT-response": "18:15:[0-5]"}
+{"file_id": 1271, "GPT-response": "`^\\s*at\\s+Object\\..+\\(node:fs:[^\\)]+\\)`"}
+{"file_id": 12721, "GPT-response": "^\\^(\\d+)\\.(\\d+)\\.(\\d+)$"}
+{"file_id": 8065, "GPT-response": "`^[^\\.][\\w-]+/\\*\\*$`"}
+{"file_id": 19078, "GPT-response": "firefox\\s(?:\\d{1,2}(?:\\.\\d{1,2})?)"}
+{"file_id": 2429, "GPT-response": "\\b\\w+-\\w+\\b"}
+{"file_id": 4188, "GPT-response": null}
+{"file_id": 18639, "GPT-response": "visit[A-Z][A-Za-z]*"}
+{"file_id": 13094, "GPT-response": ["` and `", "^(?!.*[Pp]$)[a-z]+"]}
+{"file_id": 10303, "GPT-response": "^(?=.*\\b(store|reset|create|works|increment|render|state|event|navigation|global|object|array)\\b)(?!.*(errors|events\\/actions|initialState|instantiation|integration|registration|reset|storeName)).*$"}
+{"file_id": 11665, "GPT-response": ".*\\.js$"}
+{"file_id": 4355, "GPT-response": "^[a-z]+(-[a-z]+)+$"}
+{"file_id": 13457, "GPT-response": "`\\b(?:.*sh|.*ort)\\b(?<!\\bpop\\b)(?<!\\bshift\\b)(?<!\\bsplice\\b)`"}
+{"file_id": 12278, "GPT-response": "tests\\/(?!$)([^\\/]+\\/)+[^\\/]+\\.js$"}
+{"file_id": 13439, "GPT-response": "^(?!.*(pop|shift|splice)).*$"}
+{"file_id": 13560, "GPT-response": "^~\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 12615, "GPT-response": "^\\.?\\/(?:[^\\/\\s]+\\/)+[^\\/\\s]+\\.js$"}
+{"file_id": 4472, "GPT-response": "^@[a-zA-Z0-9-]+\\/[a-zA-Z0-9-_]+$"}
+{"file_id": 19704, "GPT-response": "`^/scratch/bell/cmsale/story-bricks/tests/[^/.]+\\.js$`"}
+{"file_id": 12738, "GPT-response": "r\"^\\^(\\d+\\.)+\\d+(-[a-zA-Z]+\\.\\d+)?$\""}
+{"file_id": 10975, "GPT-response": null}
+{"file_id": 14651, "GPT-response": "^-?\\d*\\.\\d+$"}
+{"file_id": 19802, "GPT-response": "^0\\s(?:calc\\(var\\(--[a-zA-Z0-9-]+,\\s*[0-9.]+rem\\)/-?[0-9]+\\)|var\\(--[a-zA-Z0-9-]+,\\s*[0-9.]+(rem)?\\))$"}
+{"file_id": 6046, "GPT-response": "^[aprt_]+$"}
+{"file_id": 10733, "GPT-response": "\nr\"(?=.*(?:\\*\\/|^))(?=.*(?:\\{,\\-\\}|{,-\\*}|{.,-}))(?=.*test\\.js).*(?<!__tests__\\/)(?<!coverage\\/)(?<!node_modules\\/)(?<!packages\\/\\*\\/test\\/)(?<!test\\/).*\"\n"}
+{"file_id": 144, "GPT-response": "^>=\\s\\d+(\\.\\d+){0,2}\\s&&\\s<\\s\\d+(\\.\\d+){0,2}$"}
+{"file_id": 156, "GPT-response": "^>=\\s\\d+(\\.\\d+){0,2}\\s&&\\s<\\s\\d+(\\.\\d+){0,2}$"}
+{"file_id": 2599, "GPT-response": "\n(?:^|\\/)\\.(Trash-|_.*|fuse_hidden.*|nfs.*|pnp\\..*|yarn.*|npm-debug\\.log.*|lerna-debug\\.log.*|yarn-debug\\.log.*|yarn-error\\.log.*|\\.yarn\\/.*)[^\\/]*$\n"}
+{"file_id": 11899, "GPT-response": "`^[^/]+\\.txt$`"}
+{"file_id": 11777, "GPT-response": null}
+{"file_id": 12751, "GPT-response": "^\\^\\d+(\\.\\d+)*$"}
+{"file_id": 8076, "GPT-response": null}
+{"file_id": 2609, "GPT-response": null}
+{"file_id": 4944, "GPT-response": "^(?:\\.\\./|/scratch/|node_modules/)?.*fable-.*"}
+{"file_id": 12758, "GPT-response": "^\\^\\d+\\.\\d+(\\.\\d+)?(-beta\\.\\d+)?"}
+{"file_id": 138, "GPT-response": "^(>=\\s*\\d+(\\.\\d+){0,2}\\s*&&\\s*<\\s*\\d+(\\.\\d+){0,2})$"}
+{"file_id": 15453, "GPT-response": "^[a-z\\$]+$"}
+{"file_id": 13117, "GPT-response": "`r\"^[a-z]{3,6}$\"`"}
+{"file_id": 10361, "GPT-response": "\n^>=\\d+\\.\\d+\\.\\d+ <\\d+\\.\\d+\\.\\d+$\n"}
+{"file_id": 13231, "GPT-response": null}
+{"file_id": 13683, "GPT-response": "`r\"grunt-[a-zA-Z0-9\\-]+(?:mocha|istanbul|test)[a-zA-Z0-9\\-]*\"`"}
+{"file_id": 10297, "GPT-response": null}
+{"file_id": 19844, "GPT-response": "^[a-z]\\s[x]\\s\\#(1|3)(\\s\\#\\d+)?$"}
+{"file_id": 12574, "GPT-response": "^/scratch/bell/cmsale/react-web-component/node_modules/(?:@[^/]+/)?[^/]+/(?:build|runner)\\b.*\\.(?:js|jsx)$"}
+{"file_id": 19816, "GPT-response": "a x (?:#\\d+ ?)+"}
+{"file_id": 127, "GPT-response": "^>=\\s*((?:\\d+\\.)?(?:\\d+\\.)?\\d+)\\s*&&\\s*<\\s*((?:\\d+\\.)?(?:\\d+\\.)?\\d+)"}
+{"file_id": 7886, "GPT-response": "`^/scratch/[\\w/-]+(?:/node_modules/[\\w/-]+)?$`"}
+{"file_id": 3649, "GPT-response": "\\(\\d*/\\d* \\* 100%\\)|\\(var\\(--space-\\d*\\)\\)"}
+{"file_id": 14951, "GPT-response": null}
+{"file_id": 10350, "GPT-response": "^>=\\d+\\.\\d+\\.\\d+ <\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 12577, "GPT-response": "^\\/scratch\\/bell\\/[^\\/]+\\/create-react-styleguide\\/node_modules\\/(?:@[^\\/]+\\/)?[^\\/]+\\/(?:build\\/index\\.js|runner\\.js)$"}
+{"file_id": 134, "GPT-response": "^>= \\d+(\\.\\d+)* && < \\d+(\\.\\d+)*$"}
+{"file_id": 15212, "GPT-response": "`^[a-zA-Z][.\\w]*(?:\\sAS\\s[a-zA-Z][.\\w]*)?$|^[a-zA-Z][.\\w]*(?:\\s[a-zA-Z]+)+$`"}
+{"file_id": 13350, "GPT-response": "`^(join|pop|replace|shift)$`"}
+{"file_id": 12588, "GPT-response": "^\\/scratch\\/.*\\/node_modules\\/.*\\.js$"}
+{"file_id": 15140, "GPT-response": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"}
+{"file_id": 167, "GPT-response": "\n`^>= \\d+(\\.\\d+)* && < \\d+(\\.\\d+)*$`\n"}
+{"file_id": 11372, "GPT-response": "`^(?:[0-9]{1,3}\\.){3}[0-9]{1,3}$`"}
+{"file_id": 10268, "GPT-response": "\n```regex\n\\>=((\\d+\\.){1,2}\\d+) <((\\d+\\.){1,2}\\d+(-\\S+)?)$\n```\n"}
+{"file_id": 10983, "GPT-response": null}
+{"file_id": 14244, "GPT-response": null}
+{"file_id": 13451, "GPT-response": null}
+{"file_id": 18876, "GPT-response": "^\\w \\w|\\w #\\d+$"}
+{"file_id": 4471, "GPT-response": "^(@?\\w+[-\\w]*/[\\w-]+)+$"}
+{"file_id": 3741, "GPT-response": "\n`\\bat\\b.*\\b\\(\\S+:\\d+:\\d+\\)`\n"}
+{"file_id": 169, "GPT-response": ">= \\d+(\\.\\d+)* && < \\d+(\\.\\d+)*"}
+{"file_id": 15373, "GPT-response": "\n```regex\n^http:\\/\\/json-schema\\.org\\/draft-04\\/schema(?:#?(?:\\/definitions\\/[A-Za-z0-9]+)*)?$\n```\n"}
+{"file_id": 18638, "GPT-response": "visit[A-Z][A-Za-z]*"}
+{"file_id": 2435, "GPT-response": "\\b\\w+-\\w+\\b"}
+{"file_id": 7541, "GPT-response": "\\(%~:\\(.*\\(.*%%%~.*\\.(js|json)"}
+{"file_id": 18643, "GPT-response": "r\"^(visit[A-Z]\\w*)$\""}
+{"file_id": 5434, "GPT-response": "^[a-z0-9]+$"}
+{"file_id": 13449, "GPT-response": null}
+{"file_id": 7472, "GPT-response": "[A-Za-z0-9/+]*\\+[A-Za-z0-9/+]*"}
+{"file_id": 18642, "GPT-response": "^visit[A-Z]\\w*$"}
+{"file_id": 16807, "GPT-response": "^    at .* \\((.*\\.js:\\d+:\\d+)\\)"}
+{"file_id": 9608, "GPT-response": "^.*\\(\\/scratch\\/.*node_modules\\/.*\\.js:\\d+:\\d+\\).*$"}
+{"file_id": 15342, "GPT-response": "^[_a-z]+$"}
+{"file_id": 3388, "GPT-response": "\\b[a-zA-Z0-9]+-[a-zA-Z0-9]+\\b"}
+{"file_id": 8051, "GPT-response": ".*__tests__\\/.+\\/[^\\/]+?\\.(js|ts|tsx)$"}
+{"file_id": 14317, "GPT-response": null}
+{"file_id": 10132, "GPT-response": "((?:\\w+>[^,]+(?:, )?){2,})"}
+{"file_id": 13471, "GPT-response": "^(?!.*(join|pop|replace|shift|splice|split))[a-z]*$"}
+{"file_id": 7480, "GPT-response": "^[A-Za-z0-9+/]{32,}\\=$"}
+{"file_id": 7895, "GPT-response": null}
+{"file_id": 10352, "GPT-response": "\n```\n^>=(\\d+\\.)+(\\d+(-beta\\.\\d+)?) \\<(\\d+\\.)+\\d+$\n```\n"}
+{"file_id": 5253, "GPT-response": "` tags:\n\n##<Regex>##^pretty-error( > [\\w-]+)+$"}
+{"file_id": 13567, "GPT-response": null}
+{"file_id": 5855, "GPT-response": null}
+{"file_id": 7853, "GPT-response": "\n```regex\n^[a-zA-Z0-9]+/[a-zA-Z0-9]+_[a-zA-Z0-9_]*$\n```\n"}
+{"file_id": 4585, "GPT-response": "`^[0-9A-Za-z_]+$`"}
+{"file_id": 10363, "GPT-response": "`r\"(>=\\d+\\.\\d+\\.\\d+\\s*<\\d+(\\.\\d+){0,2}(-[0-9A-Za-z-]+)?|\\^\\d+\\.(\\d+|x)\\s*\\|\\|\\s*>=\\d+\\.\\d+)\"`"}
+{"file_id": 15223, "GPT-response": null}
+{"file_id": 13232, "GPT-response": ".*\\b(While|eRight|eWhile|ect|ap)$"}
+{"file_id": 8674, "GPT-response": "^[a-zA-Z]+(?:-[a-zA-Z0-9]{32})?(?:-[a-zA-Z0-9]+)*$"}
+{"file_id": 3638, "GPT-response": "^[a-z-]+@[0-9]+\\.[0-9]+\\.[0-9]+#[a-z-]+(?:\\/[a-z-]+)*$"}
+{"file_id": 4914, "GPT-response": "^\\/scratch\\/bell\\/cmsale\\/ember-metrics-matomo-adapter\\/node_modules\\/(?:[^\\/]+\\/)*(?:node_modules\\/[^\\/]+\\/)*(?:(?:lib|src)\\/index\\.js|[^\\/]+\\.js)$"}
+{"file_id": 15329, "GPT-response": "\\b[A-Z]+(?:_[A-Z]+)*\\b"}
+{"file_id": 12746, "GPT-response": "^\\^[0-9]+(\\.[0-9]+)?(\\.[0-9]+)?(-[a-zA-Z]+(\\.[0-9]+)?)?$"}
+{"file_id": 10726, "GPT-response": null}
+{"file_id": 14258, "GPT-response": "` for easy extraction:\n\n\n\nWe need to modify the placeholder pattern `r\"##<Regex>##(calls|yields)(Arg|On|With|To)*"}
+{"file_id": 13438, "GPT-response": null}
+{"file_id": 12575, "GPT-response": "\n```\n^(?:\\./|/)(?!.*(?:jest-environment-|ts-jest)).*?/.+\\.(?:js|ts)$\n```\n"}
+{"file_id": 13349, "GPT-response": "`^(?!s|u)[a-zA-Z]*(?:[aeiou]|ft)$`"}
+{"file_id": 16926, "GPT-response": null}
+{"file_id": 136, "GPT-response": " tags as required:\n\n##<Regex>##^>=\\s*\\d+(\\.\\d+)?(\\.\\d+)?\\s*&&\\s*<\\s*\\d+(\\.\\d+)?(\\.\\d+)?$"}
+{"file_id": 13096, "GPT-response": "\\b[a-z]{3,9}\\b"}
+{"file_id": 14889, "GPT-response": "^[+-]?\\d+(\\.\\d+)?$"}
+{"file_id": 13097, "GPT-response": null}
+{"file_id": 10372, "GPT-response": "(>=\\d+(\\.\\d+){0,2}\\s*<\\d+(\\.\\d+){0,2}(-\\d+)?)|(\\^\\d+(\\.\\d+){0,2}\\s*\\|\\|\\s*>=\\d+(\\.\\d+){0,2})"}
+{"file_id": 12602, "GPT-response": "^(\\./|/).+/tests/.+"}
+{"file_id": 4373, "GPT-response": "^(?!.*(funnel|bundler|fingerprint|noop)).*$"}
+{"file_id": 14205, "GPT-response": "\n```regex\n^[a-z_]+ \\d+(\\.\\d+)?-\\d+(\\.\\d+)?$\n```\n"}
+{"file_id": 123, "GPT-response": "`^>=\\s*(\\d+)(\\.\\d+)?(\\.\\d+)?\\s*&&\\s*<\\s*(\\d+)(\\.\\d+)?(\\.\\d+)?$`"}
+{"file_id": 14049, "GPT-response": "^(?:[+-]?Infinity|[+-]?\\d+)$"}
+{"file_id": 10969, "GPT-response": null}
+{"file_id": 15509, "GPT-response": "r\"^\\$(?:[a-z]+)$|^(?:[a-z]+)$\""}
+{"file_id": 10396, "GPT-response": "`^>=\\d+\\.\\d+\\.\\d+(-0)?\\s+<\\d+\\.\\d+\\.\\d+$`"}
+{"file_id": 12626, "GPT-response": "^/scratch/bell/cmsale/pay-js-commons/node_modules/(?:@[^/]+/)?[^/]+/(?:build/)?(index\\.js|runner\\.js)$"}
+{"file_id": 14193, "GPT-response": "\n```regex\n^[a-zA-Z_]+(?:\\s*<=\\s*\\d+(?:\\.\\d+)?|\\s*>=\\s*\\d+(?:\\.\\d+)?)\n```\n"}
+{"file_id": 10985, "GPT-response": "^### (Added|Changed|Fixed|Removed)"}
+{"file_id": 11748, "GPT-response": "^\\w+\\.js$"}
+{"file_id": 18476, "GPT-response": "^v?\\d+\\.\\d+\\.\\d+(-[a-zA-Z]+\\.\\d+)?"}
+{"file_id": 132, "GPT-response": null}
+{"file_id": 15151, "GPT-response": "`^-?(?:\\d+\\.?\\d*|\\.\\d+)(em|rem|px)?$`"}
+{"file_id": 11020, "GPT-response": "^%[a-zA-Z0-9+/=]+\\.sha256$"}
+{"file_id": 14246, "GPT-response": "\\b[a-z]{2,6}\\b"}
+{"file_id": 2428, "GPT-response": "\\b\\w+-\\w+\\b"}
+{"file_id": 7720, "GPT-response": "^\\.\\/ext\\/builtin\\/[_a-zA-Z]+\\.js$"}
+{"file_id": 13456, "GPT-response": "`^(?!.*(?:pop|shift|splice))[a-z]*[aeiou]+[a-z]*$`"}
+{"file_id": 13352, "GPT-response": null}
+{"file_id": 6429, "GPT-response": null}
+{"file_id": 165, "GPT-response": "^>= \\d+(?:\\.\\d+)?(?:\\.\\d+)? && < \\d+(?:\\.\\d+)?(?:\\.\\d+)?$"}
+{"file_id": 9419, "GPT-response": "\\(%~:\\(%~:\\(%~![^(%~:\\\\\\/\\|^)]\\.\\)\\)%%%~\\\\\\/\\|)[^\\/]+(?:module\\.js|foo[^\\/]%%%~\\.js|package\\.json)"}
+{"file_id": 19831, "GPT-response": "`^[a-z] (x )?(#\\d+)( #\\d+)*$`"}
+{"file_id": 10560, "GPT-response": "\\\\x01span class=\"(cstat-no|missing-if-branch)\" title=\"[^\"]*\" \\\\x02.*?\\\\x01/span\\\\x02"}
+{"file_id": 12600, "GPT-response": "`^(?:\\.?\\/)(?!@).+(?!\\/package\\.json)$`"}
+{"file_id": 15148, "GPT-response": "^(ArrayBuffer|Error|Int(?:8|16|32)Array|Uint(?:8|16|32)Array|Uint8ClampedArray)$"}
+{"file_id": 129, "GPT-response": "^>= \\d+(\\.\\d+)* && < \\d+(\\.\\d+)*$"}
+{"file_id": 13455, "GPT-response": null}
+{"file_id": 12616, "GPT-response": "^/scratch/bell/cmsale/consent-management-platform/node_modules/(?:@[^/]+/)?[^/]+/(?:.+/)?[^/]+\\.js$"}
+{"file_id": 15347, "GPT-response": "^[a-z]+$"}
+{"file_id": 14952, "GPT-response": ["^[0-9&&[^6]]$", "^[0-579]$"]}
+{"file_id": 1272, "GPT-response": "`^\\s*at (Object\\.|try)\\w* \\(node:fs:\\d+(:\\d+)?\\)`"}
+{"file_id": 18484, "GPT-response": "^\\d+\\.\\d+\\.\\d+(-\\w+\\.\\d+)?$"}
+{"file_id": 12583, "GPT-response": "^(\\./|/).*node_modules/.+\\.(js|ts)$"}
+{"file_id": 157, "GPT-response": null}
+{"file_id": 11787, "GPT-response": "`^[^.]+\\.template\\.lint-test\\.js$`"}
+{"file_id": 18481, "GPT-response": "v?\\d+\\.\\d+\\.\\d+(-[a-zA-Z0-9.]+)?"}
+{"file_id": 7902, "GPT-response": null}
+{"file_id": 14053, "GPT-response": "`^(?!\\.\\/scratch\\/).*\\/node_modules\\/.*\\.js$|^\\./.*\\.js$`"}
+{"file_id": 10290, "GPT-response": "^>=[0-9]+\\.[0-9]+\\.[0-9]+ <[0-9]+\\.[0-9]+\\.[0-9]+$"}
+{"file_id": 16928, "GPT-response": "`.*\\/node_modules\\/(?!.*@).*\\.[^/:]+:\\d+:\\d+`"}
+{"file_id": 15508, "GPT-response": "`\\$(?:async|comment|defs|id|ref|schema|vocabulary)|\\b(?:const|contains|default|definitions|dependencies|deprecated|description|else|enum|examples|format|id|if|items|maximum|minimum|not|nullable|pattern|properties|required|then|title|type)\\b`"}
+{"file_id": 14229, "GPT-response": "^[a-zA-Z0-9]+(?:[-._][a-zA-Z0-9]+)*$"}
+{"file_id": 13116, "GPT-response": "\\b(?:function|return|typeof|var)\\b"}
+{"file_id": 15330, "GPT-response": "^[A-Z]+(_[A-Z0-9]+)*$"}
+{"file_id": 17294, "GPT-response": "app:domain\\d*:(error|info|log|warn)"}
+{"file_id": 12282, "GPT-response": "\n```\n^(addon|app)\\/[^\\/]+(?:\\/.*?)?\\.js$\n```\n"}
+{"file_id": 145, "GPT-response": "^>=\\s\\d+(\\.\\d+){0,2}\\s&&\\s<\\s\\d+(\\.\\d+){0,2}$"}
+{"file_id": 2437, "GPT-response": "\\w+-\\w+"}
+{"file_id": 13475, "GPT-response": ".*(u|or).*"}
+{"file_id": 12567, "GPT-response": "`^(?:\\./|\\S(?:@|\\w|-)*\\/)jest(?:-\\w+)*\\/(?:[\\w@\\/.-]*)\\.js$`"}
+{"file_id": 5854, "GPT-response": "[()*+,\\-.;[]"}
+{"file_id": 166, "GPT-response": "^>= (\\d+(?:\\.\\d+)*) && < (\\d+(?:\\.\\d+)*)$"}
+{"file_id": 19818, "GPT-response": "^a x( #\\d+)+$"}
+{"file_id": 7474, "GPT-response": "\n`^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\\+).{22}$`\n"}
+{"file_id": 128, "GPT-response": "^>=\\s*\\d+(\\.\\d+)*\\s*&&\\s*<\\s*\\d+(\\.\\d+)*$"}
+{"file_id": 19842, "GPT-response": "^[a-zA-Z] [a-zA-Z]( #[1-9])+$"}
+{"file_id": 142, "GPT-response": "^>= \\d+(?:\\.\\d+)?(?:\\.\\d+)? && < \\d+(?:\\.\\d+)?(?:\\.\\d+)?$"}
+{"file_id": 6076, "GPT-response": "^[-0-9A-Za-z]+$"}
+{"file_id": 15210, "GPT-response": null}
+{"file_id": 13470, "GPT-response": "^(u|s).*(sh)?.*$"}
+{"file_id": 6432, "GPT-response": "^\\s*(at\\s)?(?:[^\\s].*?\\.(js|js:\\d+:\\d+)|<anonymous>|emit|exithandler|maybeClose|onErrorNT|processTicksAndRejections)"}
+{"file_id": 12589, "GPT-response": "^/scratch/bell/cmsale/ssb-component-library/(node_modules/[^/\\s]+/([^/\\s]+/)?(build|runner\\.js)/index\\.js|src/[^/\\s]+\\.js)$"}
+{"file_id": 12719, "GPT-response": "^\\^\\d+\\.\\d+\\.\\d+"}
+{"file_id": 15359, "GPT-response": "^(?!ex)[a-z]+(?:_[a-z]+)*$"}
+{"file_id": 3066, "GPT-response": "\n```\nat\\s\\/scratch\\/[a-zA-Z0-9_@\\/\\-\\.]+\\.js:\\d+:\\d+\n```\n"}
+{"file_id": 18473, "GPT-response": "`^\\d+\\.\\d+\\.\\d+(-[0-9A-Za-z-.]+)?$`"}
+{"file_id": 938, "GPT-response": "\n```regex\n(?:.*\\/)?([^\\/]*\\*\\.js|[^\\/]+\\.json\\.ember-try)\n```\n"}
+{"file_id": 12661, "GPT-response": "/scratch/bell/cmsale/create-react-styleguide/(templates/[^/]+/src/components/[^/]+/__tests__/[^/]+\\.test\\.js|lib/configs/__tests__/[^/]+\\.test\\.js)"}
+{"file_id": 18856, "GPT-response": "a x(?: #[0-9]+)+"}
+{"file_id": 153, "GPT-response": ">= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}"}
+{"file_id": 13430, "GPT-response": "\\b[a-z]*[aeiou][a-z]?[rstlnm][a-z]?\\b"}
+{"file_id": 10298, "GPT-response": null}
+{"file_id": 18485, "GPT-response": "^v?\\d+\\.\\d+\\.\\d+(-[a-zA-Z0-9]+(\\.[0-9]+)*)?$"}
+{"file_id": 149, "GPT-response": null}
+{"file_id": 172, "GPT-response": "^>=\\s\\d+(\\.\\d+){0,2}\\s&&\\s<\\s\\d+(\\.\\d+){0,2}$"}
+{"file_id": 6073, "GPT-response": "`^[0-9A-Za-z-]+$`"}
+{"file_id": 5422, "GPT-response": "[\\p{Script=Han}\\p{Script=Hiragana}\\p{Script=Katakana}]+"}
+{"file_id": 10358, "GPT-response": "^>=\\d+(\\.\\d+){1,2}(-[a-z]+\\.\\d+)?\\s*<\\s*\\d+(\\.\\d+){1,2}$"}
+{"file_id": 14191, "GPT-response": null}
+{"file_id": 6075, "GPT-response": "`^[-0-9A-Za-z]+$`"}
+{"file_id": 11766, "GPT-response": ".*\\.js$"}
+{"file_id": 146, "GPT-response": "`^>=\\s*\\d+(\\.\\d+){0,2}\\s*&&\\s*<\\s*\\d+(\\.\\d+){0,2}$`"}
+{"file_id": 10357, "GPT-response": ">=\\d+\\.\\d+\\.\\d+(-\\w+\\.\\d+)? <\\d+\\.\\d+\\.\\d+"}
+{"file_id": 4085, "GPT-response": "[(),\\-./:?ADEJLNOPRSTX^abcdefgijklmnopqrstuvwxyz{|}]+"}
+{"file_id": 15361, "GPT-response": "\\b[a-z]{3,9}\\b"}
+{"file_id": 8049, "GPT-response": "\n```regex\n^(?=.*(?:node_modules|src|test)).*(?:\\.d\\.ts|\\.ts|\\.html|\\.png)$\n```\n### "}
+{"file_id": 4598, "GPT-response": null}
+{"file_id": 13474, "GPT-response": "^(p|s|u)[a-z]*(t|rt)$"}
+{"file_id": 13466, "GPT-response": null}
+{"file_id": 12720, "GPT-response": "^\\^[1-9]\\d*\\.\\d+\\.\\d+"}
+{"file_id": 17878, "GPT-response": "^git@(bitbucket\\.org|github\\.com|gitlab\\.com):[a-zA-Z0-9_-]+\\/[a-zA-Z0-9_-]+\\.git$"}
+{"file_id": 10355, "GPT-response": "`>=\\d+(\\.\\d+)*(-[a-z]+\\.\\d+)?\\s*<\\s*\\d+(\\.\\d+)*(-[a-z]+\\.\\d+)?`"}
+{"file_id": 11, "GPT-response": null}
+{"file_id": 936, "GPT-response": null}
+{"file_id": 10377, "GPT-response": "`r\"(>=\\s*\\d+\\.\\d+\\.\\d+.*\\s+\\|\\|.*|>=\\s*\\d+\\.\\d+\\.\\d+.*\\s+<\\s+\\d+\\.\\d+\\.\\d+.*|\\^\\d+\\.\\d+\\s*\\|\\|\\s*>=\\s*\\d+\\.\\d+)\"`"}
+{"file_id": 2398, "GPT-response": "(?!(?:.*__|.*\\.\\.|.*--|.* {2,}))^(?:[A-Z][a-z]+[A-Z][a-zA-Z]*|[A-Za-z]+\\s+[A-Z0-9][a-zA-Z0-9]*|[A-Z][a-zA-Z]*\\s+[A-Za-z0-9][a-zA-Z0-9]*|[a-z]+[A-Z][A-Za-z]*|[A-Za-z]+[_][A-Za-z]+(?:\\s+[A-Za-z0-9][a-zA-Z0-9]*)?)$"}
+{"file_id": 15215, "GPT-response": "\\W+.*?\\W+"}
+{"file_id": 117, "GPT-response": "^>=\\s*\\d+(\\.\\d+){0,2}\\s*&&\\s*<\\s*\\d+(\\.\\d+){0,2}$"}
+{"file_id": 147, "GPT-response": "^>=\\s*(\\d+(\\.\\d+){0,2})\\s*&&\\s*<\\s*(\\d+(\\.\\d+){0,2})$"}
+{"file_id": 3710, "GPT-response": "\\b(?:\\d{1,3}\\.){3}\\d{1,3}:\\d{1,5}\\b"}
+{"file_id": 137, "GPT-response": "(?:>=\\s*((?:\\d+)(?:\\.\\d+){0,2})\\s*&&\\s*<\\s*((?:\\d+)(?:\\.\\d+){0,2}))"}
+{"file_id": 19246, "GPT-response": "`^(firefox|ie(?:_mob)?)\\s\\d+(\\.\\d+)?$`"}
+{"file_id": 15513, "GPT-response": "^(?!.*(?:^\\./|^-|_))[a-z][a-z0-9]*$"}
+{"file_id": 12410, "GPT-response": "^/scratch/bell/cmsale/cocoda-vue-tabs(?:/(dist|node_modules(?:/@vue/cli-service/lib)?))?$"}
+{"file_id": 10309, "GPT-response": "^>=\\d+\\.\\d+\\.\\d+ <\\d+(\\.\\d+)?(\\.\\d+)?(-\\d+)?$"}
+{"file_id": 16484, "GPT-response": "\n`^((?!^\\d+$)(?!^,+$)(?!^\\d{4}-\\d{2}-\\d{2}$).)+$`\n"}
+{"file_id": 13435, "GPT-response": "^(un)?(.*)(sh|rt)$"}
+{"file_id": 6013, "GPT-response": "\n```\n^(external\\s+\"(?:http|https|stream|url|zlib)\"(?:_default|_namespaceObject(?:_0)?)|lib_namespaceObject|public-api(?:_namespaceObject)?)$\n```\n"}
+{"file_id": 6023, "GPT-response": "`^[a-z]+(?:-[a-z]+)+$`"}
+{"file_id": 3099, "GPT-response": "^(\u4e00\u5343\u96f6?\u5341?[\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d]?)|(\u5341[\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d]?)|\u4e00\u5343|\u5341$"}
+{"file_id": 18328, "GPT-response": null}
+{"file_id": 15063, "GPT-response": "`^[a-z2]+[^wq/.=|{}]*$`"}
+{"file_id": 10568, "GPT-response": "`<span class=\"(missing-if-branch|cstat-no)\"[\\s\\S]*?<\\/span>`"}
+{"file_id": 110, "GPT-response": ">=\\s*(\\d+(\\.\\d+)*?)\\s*&&\\s*<\\s*(\\d+(\\.\\d+)*?)"}
+{"file_id": 19249, "GPT-response": "^(firefox|ie) \\d+(\\.\\d+)?"}
+{"file_id": 19079, "GPT-response": "firefox \\d{1,2}(?:\\.\\d)?"}
+{"file_id": 14192, "GPT-response": null}
+{"file_id": 13564, "GPT-response": "^~\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 12822, "GPT-response": "^\\s*at\\s+.*\\((?:file:\\/\\/\\/|node:)[^:]+:\\d+:\\d+\\)"}
+{"file_id": 17671, "GPT-response": "file:\\/\\/\\/.*@rollup\\/plugin[^\\/]+\\/dist\\/es\\/[^\\/]+\\.js(?:\\.map)?"}
+{"file_id": 16931, "GPT-response": "\\s*at .+\\/scratch\\/bell\\/cmsale\\/grid-client\\/node_modules\\/.+\\.js:\\d+:\\d+"}
+{"file_id": 17131, "GPT-response": null}
+{"file_id": 7969, "GPT-response": "`/scratch/bell/cmsale/can-log/.+/node_modules/.+?/package\\.json$`"}
+{"file_id": 159, "GPT-response": "\n^>= \\d+(\\.\\d+){0,2} && < \\d+(\\.\\d+){0,2}$\n"}
+{"file_id": 10453, "GPT-response": null}
+{"file_id": 13467, "GPT-response": "^(u|.*t.*)$"}
+{"file_id": 17248, "GPT-response": "__ASTER_DATA_\\d"}
+{"file_id": 19241, "GPT-response": "^(https?:\\/\\/)([a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*)(\\/)?$"}
+{"file_id": 11785, "GPT-response": "`^[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)*\\.template\\.lint-test\\.js$`"}
+{"file_id": 14461, "GPT-response": "^--[a-zA-Z]+$"}
+{"file_id": 12739, "GPT-response": "^\\^\\d+(\\.\\d+){0,2}$"}
+{"file_id": 5993, "GPT-response": ".*\\P{L}.*"}
+{"file_id": 13473, "GPT-response": "^(?!s.*i.).*(u|o|rt).*[^p]$"}
+{"file_id": 12581, "GPT-response": "`^\\/scratch\\/bell\\/cmsale\\/ext-ts\\/node_modules\\/(?:@[^\\/]+\\/)?[^\\/]+\\/(?:build\\/)?[^\\/]+\\.js$`"}
+{"file_id": 13129, "GPT-response": "\\b[a-z]{3,8}\\b"}
+{"file_id": 5435, "GPT-response": "[0123467adefhmnprswxyz]"}
+{"file_id": 2391, "GPT-response": null}
+{"file_id": 16089, "GPT-response": "^/scratch/bell/cmsale/css-loader/src/runtime/.+\\.js$"}
+{"file_id": 7867, "GPT-response": "(^(\\*{1,2}/)?.+(\\.js)$|^\\.\\./|^\\*\\*/node_modules/\\*)"}
+{"file_id": 14751, "GPT-response": null}
+{"file_id": 13602, "GPT-response": "\n```regex\n^~\\d+\\.\\d+\\.\\d+$\n```\n"}
+{"file_id": 1269, "GPT-response": "^\\s*at [^\\s\\/]+ \\(node:fs:\\d+(:\\d+)?\\)$"}
+{"file_id": 10727, "GPT-response": "\n`(?!(?:.*/)?(?:__tests__|coverage|node_modules|packages/.*/test|test)/).*((?:\\{.,-\\})?test\\.js)(?:/.*)?$`\n"}
+{"file_id": 4322, "GPT-response": "require\\('?[a-z]*'?\\)?"}
+{"file_id": 13235, "GPT-response": "\\b(?:filter|map|reject|.*?While)\\b"}
+{"file_id": 12595, "GPT-response": "^\\.?\\/(?:[\\w-]+\\/)+(?:dummy|config|tests|[\\w-]+)\\/(?:[\\w.-]+)$"}
+{"file_id": 13566, "GPT-response": "\n`^~\\d+\\.\\d+\\.\\d+$`\n"}
+{"file_id": 4912, "GPT-response": null}
+{"file_id": 10375, "GPT-response": "\n`'^>=(\\d+\\.\\d+\\.\\d+) <(\\d+\\.\\d+\\.\\d+)$'`\n"}
+{"file_id": 120, "GPT-response": "^>= \\d+(\\.\\d+)* && < \\d+(\\.\\d+)*$"}
+{"file_id": 11730, "GPT-response": "^\\d+\\.\\d+\\.\\d+$"}
+{"file_id": 10292, "GPT-response": "\n```\n^>=\\d+\\.\\d+\\.\\d+ <\\d+\\.\\d+\\.\\d+$\n```\n"}
+{"file_id": 13587, "GPT-response": "^~(\\d+\\.\\d+\\.\\d+)$"}
+{"file_id": 13130, "GPT-response": "` and `"}
+{"file_id": 12186, "GPT-response": "\\d*\\.*\\d+rem \\* -1"}
+{"file_id": 10306, "GPT-response": "(>=\\d+(\\.\\d+){0,2} \\<(?: \\d+(\\.\\d+){0,2}(-0)?|(?:[ ]*\\|\\|[ ]*(?:>=)?\\d+(\\.\\d+){0,2}[ ]*)))+"}
+{"file_id": 10351, "GPT-response": "^>=\\d+(\\.\\d+)+(?:-[a-zA-Z0-9-.]+)? <\\d+(\\.\\d+)+(?:-[a-zA-Z0-9-.]+)?$"}
+{"file_id": 19083, "GPT-response": "^(firefox|op_mob|opera) \\d+(\\.\\d+)?$"}
+{"file_id": 15147, "GPT-response": "^(Int(8|16|32)|Uint(8|16|32|8Clamped)|Error|ArrayBuffer)Array$"}
+{"file_id": 15547, "GPT-response": "^\\\\$.*"}
+{"file_id": 8702, "GPT-response": "`^[a-z]+(-[a-z\\d]+)+$`"}
+{"file_id": 12745, "GPT-response": "^\\^(\\d+(\\.\\d+)*)(-\\w+\\.\\d+)?$"}
+{"file_id": 12573, "GPT-response": "^/scratch/bell/cmsale/git\\-split\\-diffs/node_modules/[^/]+/(build/index\\.js|[^/]+\\.js)$"}
+{"file_id": 13230, "GPT-response": "\\b(?:filter|map|reject|[\\w]*While)\\b"}
+{"file_id": 12609, "GPT-response": "^\\/scratch\\/bell\\/cmsale\\/eslint-config-parcellab\\/node_modules\\/(?:@[^\\/]+\\/)?[^\\/]+\\/(?:.+)\\/[^\\/]+\\.js$"}
+{"file_id": 14183, "GPT-response": "\\\\x00?[a-fA-F0-9]{40,}"}
+{"file_id": 13459, "GPT-response": "^(?!.*(pop|shift|splice)$).*[a-z]+$"}
+{"file_id": 4301, "GPT-response": "import\\.meta(\\.env(\\.[A-Z_]+)?)?"}
+{"file_id": 10312, "GPT-response": "\n```regex\n(?:>=\\d+\\.\\d+\\.\\d+ <\\d+(\\.\\d+)+|>=\\d+\\.\\d+\\.\\d+ <\\d+\\.\\d+\\.\\d+-0|\\^\\d+\\.\\d+ \\|\\| >=\\d+\\.\\d+)\n```\n"}
+{"file_id": 934, "GPT-response": null}
+{"file_id": 10181, "GPT-response": "(?:\\|\\||>=|<=|>|<)\\s*\\d+|\\d+\\.\\*"}
+{"file_id": 8678, "GPT-response": null}
+{"file_id": 139, "GPT-response": "^>=\\s*\\d+(\\.\\d+)*\\s*&{2}\\s*<\\s*\\d+(\\.\\d+)*$"}
+{"file_id": 13465, "GPT-response": "`^(?!.*(join|pop|replace|shift|splice|split)).*`"}
+{"file_id": 4350, "GPT-response": "[a-z]+(-[a-z]+)+"}
+{"file_id": 4915, "GPT-response": null}
+{"file_id": 141, "GPT-response": "^>= \\d+(\\.\\d+)* && < \\d+(\\.\\d+)*$"}
+{"file_id": 19830, "GPT-response": "^(a|y)\\s*x?\\s*(#(\\d+)\\s*)+$"}
+{"file_id": 14726, "GPT-response": "`^<rootDir>\\/(lib|tests)?\\/(\\*\\.js|index\\.js)$`"}
+{"file_id": 15806, "GPT-response": null}
+{"file_id": 12723, "GPT-response": "\\^\\d+\\.\\d+\\.\\d+"}
+{"file_id": 18472, "GPT-response": "^(v|V)?\\d+\\.\\d+\\.\\d+(-[0-9A-Za-z-]+(\\.[0-9A-Za-z-]+)*)?$"}
+{"file_id": 12660, "GPT-response": ".+\\/__tests__\\/.+\\.test\\.js"}
+{"file_id": 725, "GPT-response": "^./src/[a-zA-Z0-9_-]+(?<!\\.d)\\.ts$"}
+{"file_id": 10330, "GPT-response": null}
+{"file_id": 13561, "GPT-response": null}
+{"file_id": 15350, "GPT-response": "^\\\\$?[a-zA-Z]+[a-zA-Z0-9]*$"}
+{"file_id": 14253, "GPT-response": "^(calls|yields)(Arg|ArgOn|ArgOnWith|ArgWith|On|Right|To|ToOn)?$"}
+{"file_id": 12611, "GPT-response": null}
