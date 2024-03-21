@@ -61,14 +61,22 @@ def parse_file(file_path):
 
     return positive_examples, negative_examples
 
+pos_len = []
+neg_len = []
+
+
 def generate_prompt(file):
+    global pos_len, neg_len
     file_path = os.path.join(dir_path, file)
     positive_examples, negative_examples = parse_file(file_path)
+
+    pos_len.append(len(positive_examples))
+    neg_len.append(len(negative_examples))
 
     if len(positive_examples) > 100 or len(negative_examples) > 100:
         return None
 
-    prompt = f"Act as a Software Engineer. Create a regular expression in Python that matches strings with a pattern similar to the examples: {positive_examples}. The regular expression should exclude strings with a pattern similar to the examples: {negative_examples}. I need to parse your response with a program, so please include your final solution regex with these tags -> ##<Regex>##. Make the regular expression generalizable to similar strings. Use Python to test that the Regex matches the positive examples and does not match the negative examples."
+    prompt = f"Act as a Software Engineer. Create a regular expression in Python that matches strings with a pattern similar to the examples: {positive_examples}. The regular expression should exclude strings with a pattern similar to the examples: {negative_examples}. I need to parse your response with a program, so please include your final solution regex within these HTML style tags <Regex> </Regex>. Make the regular expression generalizable to similar strings."
     return prompt
 
 def query_gpt(prompt):
@@ -76,17 +84,34 @@ def query_gpt(prompt):
         api_key=os.environ.get("OPENAI_API_KEY"),
     )
 
-    completion = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        ],
+    history = [{
+        "role": "user",
+        "content": prompt,
+    }]
+    
+    init = client.chat.completions.create(
+        messages=history,
+        model="gpt-4-turbo-preview",
+    )
+    
+    initial_response = init.choices[0].message.content
+    history.append({
+        "role": "system",
+        "content": initial_response,
+    })
+    
+    history.append({
+        "role": "user",
+        "content": "Try again",
+    })
+    
+    follow_up = client.chat.completions.create(
+        messages=history,
         model="gpt-4-turbo-preview",
     )
 
-    return completion.choices[0].message.content
+    return follow_up.choices[0].message.content
+
 
 
 def begin_query ():
@@ -107,10 +132,10 @@ def begin_query ():
         for file_name in filtered_files:
             file_id = int(file_name.split(".")[0])
 
+            prompt = generate_prompt(file_name)
+
             if file_id in existing_file_ids:
                 continue
-
-            prompt = generate_prompt(file_name)
 
             if prompt is None:
                 skip_count += 1
@@ -123,6 +148,16 @@ def begin_query ():
                 ofile.write(json.dumps({"file_id": file_id, "GPT-response": response, "RFixer_Sol": data_dict.get(file_id, "NO_SOL")}) + "\n")
             except Exception as e:
                 print (f"Error: {e}")
+
+    print (f"Total files skipped: {skip_count}")
+    print (f"Total files processed: {len(filtered_files) - skip_count}")
+
+    print (f"Average positive examples: {sum(pos_len) / len(pos_len)}")
+    print (f"Median positive examples: {get_median(pos_len)}")
+
+    print (f"Average negative examples: {sum(neg_len) / len(neg_len)}")
+    print (f"Median negative examples: {get_median(neg_len)}")
+
 
 def filter_unique_strings(input_list):
     counts = Counter(input_list)
@@ -138,7 +173,7 @@ def remove_python_code_blocks(text):
 
 
 def extract_between_tags(text):
-    text = remove_python_code_blocks(text)
+    #text = remove_python_code_blocks(text)
     pattern_closed = r"##<Regex>##(.*?)##</Regex>##"
     matches_closed = re.findall(pattern_closed, text, re.DOTALL)    
     
@@ -177,10 +212,20 @@ def clean_query():
 
     print (f"Total files with no solution: {cnt}")
 
-    
+
+def get_median(lst):
+    sorted_lst = sorted(lst)
+    n = len(sorted_lst)
+    mid = n // 2
+    if n % 2 == 0:
+        return (sorted_lst[mid - 1] + sorted_lst[mid]) / 2
+    else:
+        return sorted_lst[mid]
+
 
     
 
 if __name__ == "__main__":
-    #begin_query()
+    begin_query()
+     
     clean_query()
