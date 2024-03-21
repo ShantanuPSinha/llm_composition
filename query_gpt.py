@@ -73,7 +73,7 @@ def generate_prompt(file):
     pos_len.append(len(positive_examples))
     neg_len.append(len(negative_examples))
 
-    if len(positive_examples) > 100 or len(negative_examples) > 100:
+    if len(positive_examples) > 10 or len(negative_examples) > 10:
         return None
 
     prompt = f"Act as a Software Engineer. Create a regular expression in Python that matches strings with a pattern similar to the examples: {positive_examples}. The regular expression should exclude strings with a pattern similar to the examples: {negative_examples}. I need to parse your response with a program, so please include your final solution regex within these HTML style tags <Regex> </Regex>. Make the regular expression generalizable to similar strings."
@@ -175,6 +175,7 @@ def remove_python_code_blocks(text):
 def extract_between_tags(text):
     #text = remove_python_code_blocks(text)
     pattern_closed = r"##<Regex>##(.*?)##</Regex>##"
+    #pattern_closed = r"<Regex>(.*?)</Regex>"
     matches_closed = re.findall(pattern_closed, text, re.DOTALL)    
     
     if len(matches_closed) > 0:

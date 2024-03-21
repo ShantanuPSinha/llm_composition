@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3, json
 
-gpt_responses_path = '/home/shantanu/duality/llm_composition/temp.ndjson'
+gpt_responses_path = '/home/shantanu/duality/llm_composition/GPT_Responses_Tested.ndjson'
 secondary_database_path = '/home/shantanu/duality/Xtractor/temp/rfixer_solutions.ndjson'
 updated_database_path = './db.ndjson'
 sqlite_db_path = './composition_regexes.db'
@@ -79,8 +79,8 @@ def update_secondary_database(gpt_responses_path, secondary_database_path, updat
 
 
 
-#update_secondary_database(gpt_responses_path, secondary_database_path, updated_database_path)
-#read_and_update_ndjson_file(updated_database_path, updated_database_path)
+update_secondary_database(gpt_responses_path, secondary_database_path, updated_database_path)
+read_and_update_ndjson_file(updated_database_path, updated_database_path)
 
 
 
